@@ -1,0 +1,325 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* common css starts */
+    .common-button a {
+    background:#4caf4f;
+    padding: 14px 32px;
+    border-radius: 6px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Inter", sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    transition:0.5s;
+    border: 1px solid transparent;
+    }
+    .common-button a:hover{
+        background:transparent;
+        color:#4caf4f;      
+        border: 1px solid #4caf4f;
+    }
+    .title{
+        text-align: center;
+    }
+    .title h2{ 
+        font-family:"Inter", sans-serif ;
+        font-size: 36px;
+        font-weight: 600;
+        color:#4D4D4D
+        }
+    .title p{ 
+    
+        font-family:"Inter", sans-serif ;
+        padding-bottom: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        color:#4D4D4D
+        }
+
+        
+/* common css ends */
+
+
+.nav-button a{
+    background:#4caf4f;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family:"Inter", sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    transition:0.5s;
+    border: 1px solid transparent;
+    display: inline-block;
+    
+}
+.nav-button a:hover{
+    background:transparent;
+    color:#4caf4f;
+    border: 1px solid #4caf4f;
+}
+
+
+/* Navber part stats */
+nav{
+    background: #eef1f7;
+    padding: 22px 0px !important;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+ .nav-link{
+    font-family: "Inter", sans-serif ;
+    font-size: 16px;
+    font-weight:500;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    color:rgba(24,25,31,1)
+ }
+ .nav-link:hover{
+    color:rgb(173, 27, 27);
+
+ }
+
+/* Navber part ends */
+
+
+
+/* banner part start */
+.banner{
+    background: #eef1f7;
+    padding: 161px 0px;
+}
+.row{
+    align-items: center;
+
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif ;
+    color:#4d4d4d
+}
+.banner h1 span{
+   color:#4caf4f
+}
+.banner p{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif ;
+    padding-top: 16px ;
+    padding-bottom: 32px;
+}
+
+/* banner part ends */
+
+/* client part stars */
+.client{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+ .box{  
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-between;  
+    }
+/* client part ends */
+
+
+/* community part starts */
+.community{
+    padding-top: 40px 0px;
+    padding: 40px 0px;
+    
+}
+.community .title h2{
+    width: 653px;
+    margin: 0 auto;
+}
+.community .card{
+    width: 100% !important;
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+   text-align: center;   +
+   margin-top: 17px;
+}
+.community .card .card-title{
+    font-size: 28px;
+    color: #717171;
+    font-weight: 900;
+    font-family: "Inter", sans-serif ;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.community .card .card-text{
+    font-size: 16px;
+    color: #717171;
+    font-weight: 400;
+    font-family: "Inter", sans-serif ;
+}
+.community .card .card-body{
+    padding: 0 !important;
+}
+.card-img-top{
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+/* community part ends */
+
+
+/* service part starts */
+.service{
+    padding: 52px 0px;
+}
+.service .title2{
+    text-align: left;
+    
+}
+.title h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.title p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000000;
+    padding: 32px 0px;
+}
+
+
+/* service part ends */
+
+/* details part ends */
+.details{
+    padding: 84px 0px;
+    margin: 48PX 0PX;
+    background: #f7f0f0;
+}
+ .details .title2{
+    text-align: left;
+    width: 390px;
+
+ }
+ .details .title2 h2{
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+ }
+ .details .title2 h2 span{
+    color:#4caf4f
+ }
+ 
+.details .payment-box{
+    width: 47%;
+    column-gap: 16px;
+    display: flex;
+    
+    
+
+}
+.details .payment-box h4{
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+.details .payment-box p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4D4D4D; 
+}
+.details .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    
+}
+
+/* details part ends */
+
+/* ccustomr  part start */
+.customr{
+    padding: 32px 0px;
+    background: #F5F7FA;
+}
+.customr p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #717171; 
+}
+.customr h6{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4CAF4F; 
+}
+
+.customr .slider{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding-top: 40px;
+}
+.customr .slider h4 {
+    margin-right: 8px;
+    text-align: right;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #4CAF4F; 
+}
+
+/* customr part ends */
+
+/* marketing part starts */
+
+.marketing h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+.marketing .row p{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+     margin:  auto;
+     padding-bottom: 48px 0px;
+     width: 624px; ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    
+    }
+.marketing .row  {
+    padding: 48px 0px;
+   
+}
+.marketing .row .content {
+    padding-bottom: 20px 0px;
+   
+}
+
+
+
+/* marketing part ends */
+ 
+
+
